@@ -1,7 +1,8 @@
 /*
-Is n divisible by x and y?
+Basic Mathematical Operations
  */
 
-function isDivisible(n, x, y) {
-    return (n%x == 0 && n%y ==0) ? true : false;
+function basicOp(operation, value1, value2)
+{
+    return eval(value1 + operation + value2);
 }
